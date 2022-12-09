@@ -8,4 +8,16 @@
 //[“Russia”, “Denmark”, “Kazan”] → []
 
 
-string[] newArray = new string[] { "Hello", "2", "“world”", ":-)", "1234", "1567", "-2" };
+void PrintArray(string[] array)
+{
+    Console.Write("Массив -> ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+string[] newArray = new string[] { "Hello", "2", "world", ":-)", "1234", "1567", "-2" };
+
+PrintArray(newArray);
